@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.side-bar {
+  width: 100px;
+  height: 100vh;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+}
+
+.side-bar:nth-child(1) {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.add-btn {
+  margin-top: 10px;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #121212;
+  display: flex;
+  color: white;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.add-btn2 {
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #9f83bc;
+  display: flex;
+  color: white;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.main-content {
+  width: 100%;
+  margin: 2rem;
+}
+
+.note-input {
+  border-radius: 10px;
+  background-color: #f6edde;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 500px;
+  height: auto;
+  padding: 10px;
+}
+.note-input h1 {
+  margin: 10px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.note-input textarea {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #f6edde;
+  font-size: 1rem;
+  font-family: Poppins;
+  font-weight: 500;
+  padding: 10px;
+  margin: 10px;
+}
+
+.view-note{
+  border-radius: 10px;
+  background-color: #f6edde;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 800px;
+  height: auto;
+  padding: 10px;
+}
+.view-note p {
+  margin: 10px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.notes-h1 {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.notes-tiles-group {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap: 60px;
+}
+
+.note {
+  height: 200px;
+  width: 200px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.note p {
+  /* padding: 10px; */
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1rem;
+  max-width: 200px;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.note:nth-child(odd) {
+  background-color: #9f83bc;
+}
+.note:nth-child(even) {
+  background-color: #f7c084;
+}
